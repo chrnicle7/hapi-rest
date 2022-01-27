@@ -1,0 +1,24 @@
+{
+  "name": "hapi-rest",
+  "version": "1.0.0",
+  "description": "restful api with hapi, sequelize, and joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "naomihc",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "dotenv": "^14.3.2",
+    "joi": "^17.5.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.14.0"
+  }
+}
